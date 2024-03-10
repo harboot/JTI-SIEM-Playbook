@@ -36,37 +36,36 @@ Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 ```
 Process name Is:
 	Powershell
-
 Command Is: 
-Hctac
-kaerb
-dnammoc
-ekovn 
-ekovni
-eliFd
-rahc
-etirw
-golon
-tninon
-eddih
-tpircS
-ssecorp
-llehsrewop
-esnopser
-daolnwod
-tneilCbeW
-tneilc
-hcaerof
-ptth
-elifotevas
-46esab
-htaPpmeTteG
-tcejbO
-maerts
-retupmoc
-char\)\s+0x
-char\]\s+0x	
-'^([^^+$%]*[\^+$%]){5,}[^^+$%]*$'
+	Hctac
+	kaerb
+	dnammoc
+	ekovn 
+	ekovni
+	eliFd
+	rahc
+	etirw
+	golon
+	tninon
+	eddih
+	tpircS
+	ssecorp
+	llehsrewop
+	esnopser
+	daolnwod
+	tneilCbeW
+	tneilc
+	hcaerof
+	ptth
+	elifotevas
+	46esab
+	htaPpmeTteG
+	tcejbO
+	maerts
+	retupmoc
+	char\)\s+0x
+	char\]\s+0x	
+	'^([^^+$%]*[\^+$%]){5,}[^^+$%]*$'
 ```
 
 ## Procedure
