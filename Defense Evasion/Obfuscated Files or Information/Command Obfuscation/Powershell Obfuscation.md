@@ -39,8 +39,6 @@ Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 
 
 ## Detection
-<details>
-
 '''
 Process name Is:
 	Powershell
@@ -76,7 +74,6 @@ char\)\s+0x
 char\]\s+0x	
 '^([^^+$%]*[\^+$%]){5,}[^^+$%]*$'
 '''
-</details>
 
 ## Procedure
 	- Periksa aktivitas parent process (aplikasi) yang menjalankan perintah powershell, baik sesudah maupun sebelum alert ke trigger.
