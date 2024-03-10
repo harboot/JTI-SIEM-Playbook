@@ -31,6 +31,8 @@ Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/68fa03db-7557-43b7-b7d7-c162d3229395)
 </details>
 
+## Log Source
+	Windows Event Logs
 
 ## Detection
 ```
