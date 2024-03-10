@@ -9,6 +9,7 @@ Usecase ini berkaitan dengan Teknik MITRE berikut :
 
 Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 <details>
+	
 1. Potential PowerShell Obfuscation Via Reversed Commands
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/2c6c55c8-1491-4eff-82a7-72982f4a61c1)
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/15a1b34d-ae78-4f98-a846-dd2ce1d9ab0f)
@@ -24,10 +25,13 @@ Inspired by the 2022 Red Canary Threat Detection report.
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/274404cf-c7db-4714-920e-04fd2608ad17)
 Usecase akan memonitor jika dalam command powershell ditemukan sedikitnya 5 karakter - ^, +, $, and %
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/68fa03db-7557-43b7-b7d7-c162d3229395)
+
 </details>
 
 
 ## Detection
+<details>
+
 '''
 Process name Is:
 	Powershell
@@ -63,6 +67,7 @@ char\)\s+0x
 char\]\s+0x	
 '^([^^+$%]*[\^+$%]){5,}[^^+$%]*$'
 '''
+</details>
 
 ## Procedure
 - Periksa aktivitas parent process (aplikasi) yang menjalankan perintah powershell, baik sesudah maupun sebelum alert ke trigger.
