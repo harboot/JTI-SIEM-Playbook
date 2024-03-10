@@ -1,9 +1,10 @@
 ## Usecase
-Powershell Obfuscation
+	Powershell Obfuscation
 
 ## Background
-Usecase ini berkaitan dengan Teknik MITRE berikut : 
-1027.010 Obfuscated Files or Information: Command Obfuscation
+	Usecase ini berkaitan dengan Teknik MITRE berikut : 
+	1027.010 Obfuscated Files or Information: Command Obfuscation
+
 
 Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 	
