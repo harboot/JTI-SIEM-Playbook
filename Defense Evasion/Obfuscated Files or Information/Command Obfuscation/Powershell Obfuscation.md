@@ -5,9 +5,7 @@
 	Usecase ini berkaitan dengan Teknik MITRE berikut : 
 	1027.010 Obfuscated Files or Information: Command Obfuscation
 
-
-Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
-	
+	Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 	1. Potential PowerShell Obfuscation Via Reversed Commands
 <details>
 	
@@ -16,7 +14,7 @@ Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 </details>
 
 	2. Potential PowerShell Obfuscation Via WCHAR
- 	Detects suspicious encoded character syntax often used for defense evasion.
+ 		Detects suspicious encoded character syntax often used for defense evasion.
 <details>
 	
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/9b967158-de75-4441-b76b-6eb2b68cf63e)
@@ -24,14 +22,14 @@ Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 </details>
 
 	3. Powershell Obfuscation and Escape Characters
- 	Looks for the execution of PowerShell with unusually high counts of characters like ^, +, $, and %. 
-	Inspired by the 2022 Red Canary Threat Detection report.
+ 		Looks for the execution of PowerShell with unusually high counts of characters like ^, +, $, and %. 
+		Inspired by the 2022 Red Canary Threat Detection report.
 <details>
 
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/274404cf-c7db-4714-920e-04fd2608ad17)
 </details>
 
-	Usecase akan memonitor jika dalam command powershell ditemukan sedikitnya 5 karakter - ^, +, $, and %
+		Usecase akan memonitor jika dalam command powershell ditemukan sedikitnya 5 karakter - ^, +, $, and %
 <details>
  
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/68fa03db-7557-43b7-b7d7-c162d3229395)
