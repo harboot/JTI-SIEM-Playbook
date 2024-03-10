@@ -8,14 +8,14 @@
 
 Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 	
-1. Potential PowerShell Obfuscation Via Reversed Commands
+	1. Potential PowerShell Obfuscation Via Reversed Commands
 <details>
 	
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/2c6c55c8-1491-4eff-82a7-72982f4a61c1)
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/15a1b34d-ae78-4f98-a846-dd2ce1d9ab0f)
 </details>
 
-2. Potential PowerShell Obfuscation Via WCHAR
+	2. Potential PowerShell Obfuscation Via WCHAR
 <details>
 	
 Detects suspicious encoded character syntax often used for defense evasion.
@@ -23,7 +23,7 @@ Detects suspicious encoded character syntax often used for defense evasion.
 ![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/d0725a83-f6d2-42e9-954c-95a97712eada)
 </details>
 
-3. Powershell Obfuscation and Escape Characters
+	3. Powershell Obfuscation and Escape Characters
 <details>
 
 Looks for the execution of PowerShell with unusually high counts of characters like ^, +, $, and %. 
@@ -77,10 +77,10 @@ char\]\s+0x
 </details>
 
 ## Procedure
-- Periksa aktivitas parent process (aplikasi) yang menjalankan perintah powershell, baik sesudah maupun sebelum alert ke trigger.
-- Jalankan full scan antivirus. 
+	- Periksa aktivitas parent process (aplikasi) yang menjalankan perintah powershell, baik sesudah maupun sebelum alert ke trigger.
+	- Jalankan full scan antivirus. 
 
 ## Reference
-- https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science-wp.pdf
-- https://redcanary.com/threat-detection-report/techniques/powershell/
+	- https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science-wp.pdf
+	- https://redcanary.com/threat-detection-report/techniques/powershell/
 
