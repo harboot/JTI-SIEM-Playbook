@@ -1,6 +1,6 @@
 # JTI-SIEM-Playbook
 
-** Document Structure **
+**Document Structure**
 - Usecase
 - Background
 - Detection
