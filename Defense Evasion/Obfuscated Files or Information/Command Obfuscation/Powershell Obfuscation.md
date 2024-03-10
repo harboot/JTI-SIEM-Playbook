@@ -10,10 +10,9 @@ Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 	
 	1. Potential PowerShell Obfuscation Via Reversed Commands
 	<details>
-	
-![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/2c6c55c8-1491-4eff-82a7-72982f4a61c1)
-![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/15a1b34d-ae78-4f98-a846-dd2ce1d9ab0f)
-</details>
+	![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/2c6c55c8-1491-4eff-82a7-72982f4a61c1)
+	![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/15a1b34d-ae78-4f98-a846-dd2ce1d9ab0f)
+	</details>
 
 	2. Potential PowerShell Obfuscation Via WCHAR
 	<details>
