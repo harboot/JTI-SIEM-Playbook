@@ -38,6 +38,7 @@ Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 ```
 Process name Is:
 	Powershell
+
 Command Is: 
 	Hctac
 	kaerb
