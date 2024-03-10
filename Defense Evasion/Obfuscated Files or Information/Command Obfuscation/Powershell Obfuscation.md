@@ -4,8 +4,6 @@ Powershell Obfuscation
 ## Background
 Usecase ini berkaitan dengan Teknik MITRE berikut : 
 1027.010 Obfuscated Files or Information: Command Obfuscation
-![image](https://github.com/harboot/JTI-SIEM-Playbook/assets/1296040/6e87f64d-a535-4982-8db5-2da68e596b2f)
-
 
 Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 	
