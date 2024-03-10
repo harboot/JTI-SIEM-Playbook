@@ -2,8 +2,7 @@
 	Powershell Obfuscation
 
 ## Background
-	Usecase ini berkaitan dengan Teknik MITRE berikut : 
-	1027.010 Obfuscated Files or Information: Command Obfuscation
+Pelaku kejahatan siber (attacker) bisa menyamarkan perintah komputer (command) agar sulit dideteksi. Caranya dengan membuat rangkaian huruf dan simbol dalam perintah menjadi rumit, sehingga program keamanan tidak bisa mengenali pola mencurigakan.
 
 Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation 
 <details>
@@ -34,7 +33,7 @@ Ada beberapa teknik yang digunakan untuk mendeteksi Powershell Obfuscation
 
 
 ## Detection
-'''
+```
 Process name Is:
 	Powershell
 
@@ -68,7 +67,7 @@ retupmoc
 char\)\s+0x
 char\]\s+0x	
 '^([^^+$%]*[\^+$%]){5,}[^^+$%]*$'
-'''
+```
 
 ## Procedure
 	- Periksa aktivitas parent process (aplikasi) yang menjalankan perintah powershell, baik sesudah maupun sebelum alert ke trigger.
